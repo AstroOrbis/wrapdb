@@ -5,7 +5,7 @@ a meson port maintained by the Meson team. They can be used as subproject to
 any Meson project that needs them as dependency.
 
 ## How to test a wrap
-
+ 
 Clone this repository locally, and set the `wraps` option with a comma separated
 list of wraps that needs to be built.
 
@@ -14,7 +14,7 @@ For example to test libjpeg-turbo and zlib:
 meson setup builddir -Dwraps=libjpeg-turbo,zlib
 meson compile -C builddir
 ```
-
+ 
 ## How to contribute new wraps
 
 ### Getting Started
